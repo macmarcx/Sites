@@ -1,0 +1,154 @@
+/*Corpo do Site*/
+
+body{
+	background-color: #060606;
+	background-image: url(../img/background-pizza.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0;
+}
+
+/*Banner Principal*/
+
+#banner {
+	background-color: rgba(0, 0, 0, 0.5);
+	height: 76px;
+	padding: 30px 70px 30px 70px;
+}
+#banner h1{
+	float: left;
+	margin: 0;
+}
+#banner nav{
+	float: right;
+	position: relative;
+	top: 30px;
+}
+#banner ul{
+	margin: 0;
+}
+
+#banner nav ul li{
+	color: #ffffff;
+	display: inline-block;
+	width: 100px;
+}
+#banner nav ul li a{
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 17px;
+	font-weight: bold;
+	font-family: "Helvetica Neue", sans-serif;
+}
+
+/*Meio do Site - Tabela*/
+
+#sabores-pizzas{
+	padding: 60px;
+	margin-top: 400px;
+}
+#sabores-pizzas h2{
+	color: #fff;
+	font-family: "Helvetica Neue", sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 0;
+	line-height: 6;
+	text-shadow: 2px -2px 10px #060606;
+}
+#sabores-pizzas table{
+	border-collapse: collapse;
+	margin: 0 auto;
+	width: 80%;
+	background-color: #333;
+}
+#sabores-pizzas table td,
+#sabores-pizzas table th{
+	border: 1px #000 solid;
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-family: "Helvetica Neue", sans-serif;
+	padding: 25px;
+}
+
+#sabores-pizzas .texto-negativo{
+	color: #fb3958;
+}
+#sabores-pizzas .texto-positivo{
+	color: #87b50f;
+}
+
+/*Contato*/
+
+#contato-dados h2{
+	color: #fff;
+	font-family: "Helvetica Neue", sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 0;
+	line-height: 6;
+	text-shadow: 2px -2px 10px #060606;
+}
+#contato-dados form{
+	clear: both;
+	margin:0 30%;	
+}
+
+#contato-dados form label{
+	color: #fff;
+	font-family: "Helvetica Neue", sans-serif;	
+	margin:15px 0;
+	display: block;
+	text-transform: uppercase;
+}
+
+#contato-dados form input, form textarea{
+	height: 10px;
+	width: 500px;
+	border-radius: 30px;
+	background-color: transparent;;
+	display: block;
+	padding: 25px 25px;
+	font-family: 'Roboto', sans-serif;
+	text-transform: uppercase;
+	color: #fff;
+	font-style: italic;
+}
+
+#contato-dados form textarea{
+	height: 200px;
+	font-size: 0.75em;
+}
+
+#contato-dados input[type="submit"] {
+    width: 555px;
+    margin: 25px 0;
+    padding-top: 15px;
+}
+
+#contato-dados input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+/*Rodapé*/
+
+#copyright {
+	padding: 35px 0 10px 0;
+	background-color: #060606;
+}
+#copyright a{
+	text-align: center;
+	display: block;
+}
+#copyright p{
+	color: #fff;
+	text-align: center;
+	font-family: "Helvetica Neue", sans-serif;
+	font-size: 12px;
+}
